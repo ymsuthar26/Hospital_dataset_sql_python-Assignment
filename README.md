@@ -1,5 +1,3 @@
-# Hospital_dataset_sql_python-Assignment
-The goal of this project was to build a realistic hospital database using Python and SQL Server.
 # Project Overview
 The goal of this project was to build a realistic hospital database using Python and SQL Server. Instead of using actual patient data, I generated synthetic (fake) data using Python libraries like Faker and random. This data was then structured and analyzed using Python (with Pandas and NumPy) and stored in SQL Server for further use.
 
