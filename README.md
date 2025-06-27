@@ -3,11 +3,11 @@ The goal of this project was to build a realistic hospital database using Python
 
 # The project includes five main tables:
 
-Hospitals – List of hospitals with unique IDs and names.
-Patients – Records of 1,00,000 fake patients with hospital link, name, date of birth, and admission/discharge dates.
-Diagnosis – Each patient was assigned two diseases from a list (e.g., Flu, Diabetes, COVID-19).
-Treatments – Each patient received five treatments including medicine names, dose time (morning, evening, night), and duration.
-Payments – Records of payments with amount and payment method (cash or credit).
+- Hospitals – List of hospitals with unique IDs and names.
+- Patients – Records of 1,00,000 fake patients with hospital link, name, date of birth, and admission/discharge dates.
+- Diagnosis – Each patient was assigned two diseases from a list (e.g., Flu, Diabetes, COVID-19).
+- Treatments – Each patient received five treatments including medicine names, dose time (morning, evening, night), and duration.
+- Payments – Records of payments with amount and payment method (cash or credit).
 
 Once the data was created in Python, I connected it to SQL Server using the pyodbc library and inserted all the tables into a relational database. 
 This helped in understanding how to manage large-scale structured data in both Python and SQL environments.
